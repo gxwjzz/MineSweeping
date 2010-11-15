@@ -1,9 +1,9 @@
 Description:
-MineSweeping game implemented by Flex.
+MineSweeping game implemented by Flex. 
 
 Run:
-Make sure the mongodb server is running.
 Make sure you have a running server that supports php.
+Make sure the mongodb server is running and the php driver is installed.
 Download the minesweeping folder and use your browser to navigate to
 YOUR_DIR/minesweeping/bin-release/MineSweeping.html 
 
@@ -12,8 +12,6 @@ The source can be view by right-click the application and select "View Source" i
 The database being used is "msdb" on localhost.
 And the data is stored in collection called "state".
 (Details can be found in YOUR_DIR/minesweeping/bin-release/php/dbRead.php & dbSave.php)
-You can check this out after you've saved the game at least once.
+You can check this out in your mongo client after you've saved the game at least once.
 >use msdb
 >db.state.find()
-
-
