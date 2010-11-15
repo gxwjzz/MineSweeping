@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+	<title>Source of MineSweeping</title>
+	<nodes>
+		<node label="html-template">
+			<node label="history">
+				<node label="history.css" icon="cssIcon" url="source/html-template/history/history.css.html"/>
+				<node label="history.js" url="source/html-template/history/history.js.txt"/>
+				<node label="historyFrame.html" icon="htmlIcon" url="source/html-template/history/historyFrame.html"/>
+			</node>
+			<node label="AC_OETags.js" url="source/html-template/AC_OETags.js.txt"/>
+			<node label="index.template.html" icon="htmlIcon" url="source/html-template/index.template.html"/>
+			<node label="playerProductInstall.swf" icon="swfIcon" url="source/html-template/playerProductInstall.swf"/>
+		</node>
+		<node label="libs">
+		</node>
+		<node label="src" icon="classpathIcon" expanded="true">
+			<node label="Game" icon="packageIcon" expanded="true">
+				<node label="MineSweeper.as" icon="actionScriptIcon" url="source/Game/MineSweeper.as.html"/>
+			</node>
+			<node label="MyLoader" icon="packageIcon" expanded="true">
+				<node label="MyImageLoader.as" icon="actionScriptIcon" url="source/MyLoader/MyImageLoader.as.html"/>
+			</node>
+			<node label="php">
+				<node label="dbRead.php" url="source/php/dbRead.php.txt"/>
+				<node label="dbSave.php" url="source/php/dbSave.php.txt"/>
+			</node>
+			<node label="resources">
+				<node label="cool.png" icon="imageIcon" url="source/resources/cool.png.html"/>
+				<node label="digits_black.png" icon="imageIcon" url="source/resources/digits_black.png.html"/>
+				<node label="digits_green.png" icon="imageIcon" url="source/resources/digits_green.png.html"/>
+				<node label="digits_red.png" icon="imageIcon" url="source/resources/digits_red.png.html"/>
+				<node label="faces.png" icon="imageIcon" url="source/resources/faces.png.html"/>
+				<node label="minesweeper_tiles.jpg" icon="imageIcon" url="source/resources/minesweeper_tiles.jpg.html"/>
+				<node label="smile.gif" icon="imageIcon" url="source/resources/smile.gif.html"/>
+				<node label="wrong.png" icon="imageIcon" url="source/resources/wrong.png.html"/>
+			</node>
+			<node label="UIComponents" icon="packageIcon" expanded="true">
+				<node label="LedDigits.as" icon="actionScriptIcon" url="source/UIComponents/LedDigits.as.html"/>
+				<node label="Map.as" icon="actionScriptIcon" url="source/UIComponents/Map.as.html"/>
+				<node label="SmileyFace.as" icon="actionScriptIcon" url="source/UIComponents/SmileyFace.as.html"/>
+			</node>
+			<node selected="true" label="MineSweeping.mxml" icon="mxmlAppIcon" url="source/MineSweeping.mxml.html"/>
+		</node>
+	</nodes>
+</index>
